@@ -1,16 +1,9 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<style>
-  :host {
-    background-color: brown;
-  }
-</style>
-
-<router-outlet />
+<h1>Angular Router App</h1>
+<nav>
+  <ul>
+    <li><a routerLink="/register-component" routerLinkActive="active" ariaCurrentWhenActive="page">Register</a></li>
+    <li><a routerLink="/login-component" routerLinkActive="active" ariaCurrentWhenActive="page">Login</a></li>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>

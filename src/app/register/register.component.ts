@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './register.component.scss'
 })
 export class RegisterComponent {
-
+  imageUrl = "../assets/images/Loop2Earn_big.png"
 }
